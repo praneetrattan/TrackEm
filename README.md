@@ -7,10 +7,10 @@
 The utility of this app is to provide the user a simplistic way of tracking of all their daily activities,
 without having to deal with multiple planner apps.
 
-"I cheated on my diet today".. (WeightWatchers)
-"However, I did take all my medications".. (Medisafe)
-"John changed the HVAC air filter too".. (Google calander)
-"Fido really enjoyed the dogpark today, I should take him there more often".. (PetPlanner)
+"I cheated on my diet today".. (*WeightWatchers*) <br>
+"However, I did take all my medications".. (*Medisafe*) <br>
+"John changed the HVAC air filter too".. (*Google calander*) <br>
+"Fido really enjoyed the dogpark today, I should take him there more often".. (*PetPlanner*) <br>
 
 No need to track these in their designated apps and planners!
 
