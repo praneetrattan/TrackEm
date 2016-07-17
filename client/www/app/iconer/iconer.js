@@ -14,7 +14,7 @@ iconer.config(function ($stateProvider) {
   })
 });
 
-iconer.controller('iconerController', function ($scope, $stateParams, dbService, $rootScope, $state, $interval, $ionicPopup, $timeout) {
+iconer.controller('iconerController', function ($scope, $stateParams, dbService, $rootScope, $state) {
 
   $scope.icons = ['Happy', 'Sad', 'Smile', 'Kiss'];
 
@@ -41,6 +41,5 @@ iconer.controller('iconerController', function ($scope, $stateParams, dbService,
   //save events to db
   //get list of all events
   //get icons for all listed events
-
-
+  
 });

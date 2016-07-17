@@ -13,7 +13,7 @@ calender.config(function ($stateProvider) {
   })
 });
 
-calender.controller('calenderController', function ($scope, uiCalendarConfig, dbService, $rootScope, $state, $interval, $ionicPopup, $timeout) {
+calender.controller('calenderController', function ($scope, uiCalendarConfig, dbService, $rootScope, $state) {
 
   ionic.Platform.ready(function () {
     window.StatusBar && StatusBar.styleDefault();

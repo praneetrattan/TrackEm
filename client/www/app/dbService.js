@@ -1,6 +1,6 @@
 /*
  Central service for interactions with PouchDB
-*/
+ */
 
 var dbService = angular.module('dbService', []);
 
@@ -25,21 +25,18 @@ dbService.service('dbService', function () {
     addEvent: function (date, event, iconUrl) {
 
       var events = new PouchDB(this.events);
-
       console.log(date);
 
-      events.get(date.toString()).then(function (doc) {
-
-        console.log('--> doc');
+      events.get(date.toString())
+      .then(function (doc) {
         console.log(doc);
       })
       .catch(function (err) {
-        console.log('--> error');
         console.log(err);
       });
     }
   };
 
   return service;
-
+  
 });
