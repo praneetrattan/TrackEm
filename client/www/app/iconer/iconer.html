@@ -1,0 +1,22 @@
+
+<!--Header-->
+<div>
+  <ion-header-bar class="bar bar-header bar-energized">
+    <h1 class="title">Iconer</h1>
+    <div class="buttons">
+      <button class="button" ng-click="addNewMapping()">Add</button>
+    </div>
+  </ion-header-bar>
+
+</div>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item ng-repeat="icon in icons" ng-click="addEvent(icon)">
+      {{icon}}
+      <ion-delete-button></ion-delete-button>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

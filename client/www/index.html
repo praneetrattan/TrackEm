@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- ionic/angularjs app -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's app -->
+  <script src="app/app.js"></script>
+
+  <script src="lib/pouchdb/dist/pouchdb.min.js"></script>
+
+  <!-- app files -->
+  <script src="app/iconer/iconer.js"></script>
+  <script src="app/calender/calender.js"></script>
+  <script src="app/mappings/mappings.js"></script>
+  <script src="app/dbService.js"></script>
+  <script src="app/iconService.js"></script>
+  <script src="app/msgService.js"></script>
+
+  <link rel="stylesheet" href="lib/fullcalendar/dist/fullcalendar.css"/>
+  <!-- jquery, moment, and angular have to get included before fullcalendar -->
+  <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+  <script type="text/javascript" src="lib/angular-ui-calendar/src/calendar.js"></script>
+  <script type="text/javascript" src="lib/fullcalendar/dist/fullcalendar.min.js"></script>
+  <script type="text/javascript" src="lib/fullcalendar/dist/gcal.js"></script>
+
+</head>
+<body ng-app="app" ng-controller="appController">
+
+<ion-nav-view></ion-nav-view>
+
+</body>
+</html>

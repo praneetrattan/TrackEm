@@ -1,0 +1,30 @@
+<!--Header-->
+<div>
+  <ion-header-bar class="bar bar-header bar-energized">
+    <h1 class="title">Mappings</h1>
+  </ion-header-bar>
+</div>
+
+<ion-content>
+
+  <div class="row" ng-repeat="icon in icons" ng-if="$index % 4 === 0">
+    <div class="col col-25" ng-if="$index < icons.length">
+      <img id="{{icons[$index].id}}" ng-src="{{icons[$index].src}}" width="100%" ng-click="add(icons[$index], $event)"/>
+    </div>
+    <div class="col col-25" ng-if="$index + 1 < icons.length">
+      <img id="{{icons[$index + 1].id}}" ng-src="{{icons[$index + 1].src}}" width="100%"
+           ng-click="add(icons[$index+1], $event)"/>
+    </div>
+    <div class="col col-25" ng-if="$index + 2 < icons.length">
+      <img id="{{icons[$index + 2].id}}" ng-src="{{icons[$index + 2].src}}" width="100%"
+           ng-click="add(icons[$index+2], $event)"/>
+    </div>
+    <div class="col col-25" ng-if="$index + 3 < icons.length">
+      <img id="{{icons[$index + 3].id}}" ng-src="{{icons[$index + 3].src}}" width="100%"
+           ng-click="add(icons[$index+3], $event)"/>
+    </div>
+  </div>
+
+</ion-content>
+
+

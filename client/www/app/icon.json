@@ -1,0 +1,122 @@
+[
+  {
+    "id": "add",
+    "src": "img/add.png"
+  },
+  {
+    "id": "apple",
+    "src": "img/apple.png"
+  },
+  {
+    "id": "avocado",
+    "src": "img/avocado.png"
+  },
+  {
+    "id": "banana",
+    "src": "img/banana.png"
+  },
+  {
+    "id": "cabbage",
+    "src": "img/cabbage.png"
+  },
+  {
+    "id": "carrot",
+    "src": "img/carrot.png"
+  },
+  {
+    "id": "cherries",
+    "src": "img/cherries.png"
+  },
+  {
+    "id": "doctor",
+    "src": "img/doctor.png"
+  },
+  {
+    "id": "dog",
+    "src": "img/dog.png"
+  },
+  {
+    "id": "eye",
+    "src": "img/eye.png"
+  },
+  {
+    "id": "flask",
+    "src": "img/flask.png"
+  },
+  {
+    "id": "hamburguer-1",
+    "src": "img/hamburguer-1.png"
+  },
+  {
+    "id": "hot-dog",
+    "src": "img/hot-dog.png"
+  },
+  {
+    "id": "intersex",
+    "src": "img/intersex.png"
+  },
+  {
+    "id": "medical-1",
+    "src": "img/medical-1.png"
+  },
+  {
+    "id": "medical-2",
+    "src": "img/medical-2.png"
+  },
+  {
+    "id": "medical",
+    "src": "img/medical.png"
+  },
+  {
+    "id": "minus",
+    "src": "img/minus.png"
+  },
+  {
+    "id": "nurse",
+    "src": "img/nurse.png"
+  },
+  {
+    "id": "orange",
+    "src": "img/orange.png"
+  },
+  {
+    "id": "pill",
+    "src": "img/pill.png"
+  },
+  {
+    "id": "strawberry",
+    "src": "img/strawberry.png"
+  },
+  {
+    "id": "surgeon",
+    "src": "img/surgeon.png"
+  },
+  {
+    "id": "temperature-1",
+    "src": "img/temperature-1.png"
+  },
+  {
+    "id": "temperature-2",
+    "src": "img/temperature-2.png"
+  },
+  {
+    "id": "temperature",
+    "src": "img/temperature.png"
+  },
+  {
+    "id": "thermometer-1",
+    "src": "img/thermometer-1.png"
+  },
+  {
+    "id": "thermometer",
+    "src": "img/thermometer.png"
+  },
+  {
+    "id": "tomato",
+    "src": "img/tomato.png"
+  },
+  {
+    "id": "watermelon",
+    "src": "img/watermelon.png"
+  }
+]

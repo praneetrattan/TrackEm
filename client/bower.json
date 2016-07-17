@@ -1,0 +1,12 @@
+{
+  "name": "trackem",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.0"
+  },
+  "dependencies": {
+    "pouchdb": "^5.4.1",
+    "fullcalendar": "^2.7.3",
+    "angular-ui-calendar": "^1.0.1"
+  }
+}
