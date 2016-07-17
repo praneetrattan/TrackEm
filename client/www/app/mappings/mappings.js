@@ -51,9 +51,6 @@ mappings.controller('mappingsController', function ($scope, $http, $stateParams,
     return template;
   };
 
-
-
-
   $scope.add = function (icon, $event) {
 
     console.log('==> add');
